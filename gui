@@ -1,0 +1,21 @@
+ private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        // TODO add your handling code here:
+        int x = Integer.parseInt(jTextField1.getText());  
+         int y = Integer.parseInt(jTextField2.getText());  
+         int z = Integer.parseInt(jTextField3.getText());  
+         int a = Integer.parseInt(jTextField4.getText()); 
+         
+       int ave = x + y + z + a;   
+        int perc = ave / 4; 
+        
+        
+        
+        jTextField5.setText(""+  String.valueOf(perc)); 
+        
+        
+        
+        
+        
+        
+        
+    }                                        
