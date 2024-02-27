@@ -1,0 +1,15 @@
+ private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        // TODO add your handling code here:
+        int x = Integer.parseInt(jTextField1.getText()); 
+         int y = Integer.parseInt(jTextField2.getText()); 
+          int z = Integer.parseInt(jTextField3.getText()); 
+           int v = Integer.parseInt(jTextField4.getText()); 
+           int sum; 
+           
+           int aver = x + y + z + v ; 
+           int perc = aver / 4; 
+           
+
+        jTextField5.setText(""+  String.valueOf(perc));
+           JOptionPane.showMessageDialog(this,"Cheer Up and Keep it up!");
+           
